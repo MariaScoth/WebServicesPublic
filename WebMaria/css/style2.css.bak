@@ -1,0 +1,58 @@
+body{
+	background: linear-gradient(200deg, #FFFF, #92D3EB, #FFFF, #3BAEDA, #FFFF);
+}
+
+form{
+		font-family: 'Roboto-regular';
+		font-size: 24px;
+		margin-top: 60px;	
+		text-align: center;
+}
+
+.image-container{
+	text-align: center;	
+}
+
+
+.image-rosa{
+	text-align: left;	
+}
+
+.image-verde{
+	text-align: right;	
+}
+	
+label{
+		display: inline-block;
+		margin-bottom: 20px;
+}
+
+.label1{
+		margin-right:140px;		
+}
+
+.label2{
+		margin-right:40px;		
+}
+
+input{
+		width: 250px;
+		padding: 5px;
+}
+
+button{
+        margin-top: 20px;
+        padding: 5px 20px 5px 20px; 
+        cursor: pointer; 
+		border: none;
+        border-bottom: 4px solid #92D3EB;
+        background-color: #3BAEDA; 
+        color: white; 
+        border-radius: 4px; 
+        font-family: 'Roboto-medium';
+		font-size: 24px;
+}
+
+button:hover{
+        background-color: #92D3EB;
+}
