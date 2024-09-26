@@ -10,16 +10,19 @@ form{
 }
 
 .image-container{
-	text-align: center;	
+	margin-top: 80px;
+	display: flex; 
+	justify-content: center;
+	margin-left:35%;
 }
 
 
 .image-rosa{
-	text-align: left;	
+	display: flex;    
 }
 
 .image-verde{
-	text-align: right;	
+	text-align: right;	 
 }
 	
 label{
@@ -40,8 +43,12 @@ input{
 		padding: 5px;
 }
 
+input:hover {
+    border-color: #DAC63B;
+}
+
 button{
-        margin-top: 20px;
+        margin-top: 60px;
         padding: 5px 20px 5px 20px; 
         cursor: pointer; 
 		border: none;
@@ -55,4 +62,8 @@ button{
 
 button:hover{
         background-color: #92D3EB;
+}
+
+button:active {
+        background-color: #DAC63B
 }
